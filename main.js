@@ -1,10 +1,9 @@
-    // Magasin dont les heures d'ouverture sont:
-    8h-12h
+// Magasin dont les heures d'ouverture sont:
 
     // if (userInput === code) {
     //  // Le user a tapé le bon code
     //  console.log("Coffre ouvert");
-    
+
     // }
     // else {
     //  // Le user s'est trompé de code
