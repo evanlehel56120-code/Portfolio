@@ -25,10 +25,10 @@ header {
     height: 70px;
 }
 
-.Oskour {
+.top-bar {
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 50vh;
 }
 
 .navbar {
@@ -52,11 +52,24 @@ header {
     color: black;
 }
 
+.infos {
+    margin-top: 50px;
+    margin-left: 50px;
+    color: darkslateblue;
+    border: 2px solid black;
+    width: fit-content;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    padding: 10px;
+}
+
 form {
     align-items:end;
     border: 2px solid black;
     border-radius: 50px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
     width: 600px;
     height: 400px;
     display: flex;
@@ -83,26 +96,10 @@ form {
     display: none;
 }
 
-
-.truc{
-    width: 50px;
-}
-
 .formulaire {
     margin-top: 100px;
     color: darkcyan;
     margin-left: 50px;
-}
-
-.Informations {
-    margin-top: 50px;
-    margin-left: 50px;
-    color: darkslateblue;
-    border: 2px solid black;
-    width: fit-content;
-    border-radius: 20px;
-    background-color: rgba(255, 255, 255, 1);
-    padding: 10px;
 }
 
 
