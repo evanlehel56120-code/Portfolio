@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+
+
+<body>
+    <header>
+        <div class="Oskour">
+            <img class="logo" src="photo/Free-Logos-PNG.png" alt="Logo">
+            <nav class="navbar">
+             <a href="index.html">Page d'accueil</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+        <div class="Informations">
+            <h2>Informations de contact</h2>
+            <p>Vous pouvez me contacter via le formulaire ci-dessous ou par email à l'adresse suivante :</p>
+            <textarea readonly rows="1" cols="30">evan.le_hel@edu.devinci.fr</textarea>
+        </div>
+
+    <section class="formulaire">
+        <h2>Formulaire de contact</h2>
+        <form action="">
+            <div class="nom">
+                <label for="first-name">Prénom* :</label>
+                <input id="first-name" type="text" placeholder="Ex. Hercule">
+
+                <label for="name">Nom* :</label>
+                <input id="name" type="text" placeholder="Ex. POIREAU">
+
+                <div class="erreur">
+                    <p id="first-name-error" class="error hidden">L'entrée est incorrect</p>
+                    <p id="name-error" class="error hidden">L'entrée est incorrect.</p>
+                </div>
+            </div>
+
+
+            <div class="email">
+                <label for="email">Email* :</label>
+                <input id="email" type="email" placeholder="Ex. herculepoireau@gmail.com">
+            </div>
+
+            <div class="travail">
+                <label for="Exp-P">Expérience professionnelle :</label>
+                <input id="Exp-P" type="text" placeholder="Ex. Travail, études...">
+            </div>
+
+            <div class="submit">
+                <input type="submit" value="Envoyer">
+            </div>
+        </form>
+    </section>
+
+    <script src="JAVASCRIPT/main.js"></script>
+    
+</body>
+</html>
+            
+            
+            
+            

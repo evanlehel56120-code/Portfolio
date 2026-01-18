@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.2;
+}
+
+
+body {
+    background-image: url(photo/amphibia-city-at-night-sifnpttxvv8bvky1.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: white;
+}
+
+header {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.34);
+    color: thistle;
+}
+
+.logo {
+    width: auto;
+    height: 70px;
+}
+
+.Oskour {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.premiere-partie{
+    height: 500px;
+    text-align: center;
+    padding-top: 100px;
+    color: black;
+}
+
+form {
+    align-items:end;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.erreur {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    font-family: "Jost";
+    color: red;
+    font-weight: bold;
+    letter-spacing: normal;
+    font-size: 16px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.truc{
+    width: 50px;
+}
+
+.formulaire {
+    margin-top: 100px;
+    color: darkcyan;
+    margin-left: 50px;
+}
+
+.Informations {
+    margin-top: 50px;
+    margin-left: 50px;
+    color: darkslateblue;
+    border: 2px solid black;
+    width: fit-content;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 10px;
+}
+
+
+
